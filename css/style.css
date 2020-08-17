@@ -11334,6 +11334,10 @@ h5,
 .p{
   width: 100%;
 }
+
+.justify-content-center1{
+  justify-content: center !important;
+}
 .m-0{
   margin: 0;
 }
