@@ -11328,6 +11328,20 @@ h5,
 .bg-fifth {
   background: #5d50c6;
 }
+.p-0{
+  padding: 0;
+}
+.p{
+  width: 100%;
+}
+.m-0{
+  margin: 0;
+}
+.span-1{
+  color: red;
+  background: orange;
+  border-radius: 30px ;
+}
 .bg-notice{
   background: #ccc !important;
 }
