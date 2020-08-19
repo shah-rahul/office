@@ -11331,6 +11331,12 @@ h5,
 .p-0{
   padding: 0;
 }
+
+.fit-img{
+  width: 50%;
+  height:70%
+}
+
 .p{
   width: 100%;
 }
