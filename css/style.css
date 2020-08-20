@@ -4463,6 +4463,8 @@ input[type='button'].btn-block {
 }
 .nav-link:hover,
 .nav-link:focus {
+  border-radius: 3px;
+  background:	#2a314a;
   text-decoration: none;
 }
 .nav-link.disabled {
@@ -11336,7 +11338,7 @@ h5,
   width: 50%;
   height:70%
 }
-
+.
 .p{
   width: 100%;
 }
