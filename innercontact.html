@@ -298,57 +298,78 @@
 <section>
     <div class="container-fluid bg-notice">
         
-        <h1 class="py-5 text-center"> Affiliation</h1>
+        <h1 class="py-5 text-center"> contact us</h1>
     </div>
     <div class="container px-5 py-5">
         
-        <h3 class="text-primary"><i class="fas fa-home"></i>   Home/ Affiliation</h2>
+        <h3 class="text-primary"><i class="fas fa-home"></i>   Home/ contact us</h2>
     </div>
     <div class="container d-flex" >
         <div class="row">
             <div class="col-md-4 p-0 m-0 bg-darken">
                 <div class="container bg-darken">
 
-                  <h4 class="text-white mx-4 px-1 my-2">About Sit</h4>
+                  <h4 class="text-white text-center mx-4 px-1 my-2">contact us</h4>
                 </div>
                 <div
                 class=" heading-section heading-section-white bg-darken ftco-animate m-0 p-0"
               >
-                <ul>
-                  <li class="text-white nav-link nav-item active">
-                      <i class="fas fa-link"></i>
-                    <a class="text-white " href="#"
-                      >College Administation</a
-                    >
-                    <li class="text-white nav-link active">
-                      <i class="fas fa-link"></i>
-                    <a class="text-white active " href="#"
-                      >Hostel Administation</a
-                    >
-                  </li>
-                  <li class="text-white nav-link bg-notice">
-                      <i class="fas fa-link"></i>
-                    <a class="text-white " href="#"
-                      >Affiliation</a
-                    >
-                  </li>
-                  </li>
-                  <li class="text-white nav-link">
-                      <i class="fas fa-link"></i>
-                    <a class="text-white " href="#"
-                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Assumenda, perspiciatis!</a
-                    >
-                  </li>
+              <div class="container text-center">
+
+                  <i class="fas fa-map-marker-alt text-center text-white"></i>
+              </div>
+                <h4 class="text-white text-center">location</h4>
+                <P class="text-center px-5 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, eligendi.</P>
+                <P class="text-center">0612- 2220179</P>
                 
                 </ul>
               </div>
           </div>
             
-            <div class="col-md-8">
-                <div class="container"><h4>Affiliation</h4></div>
-            <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro reprehenderit dignissimos inventore commodi et, at delectus modi amet id quae minus ducimus iste dolorem atque laboriosam non, mollitia ratione impedit. Adipisci consequuntur quas consectetur fuga accusantium tempore culpa saepe perspiciatis quibusdam porro quaerat quis quae sit facere, quasi vitae aut incidunt, atque similique? Dolore ipsum impedit ipsa similique ducimus.</p></div>
+          <div class=" container panel panel-default">
+            <div class="panel-heading text-center ">
+                <span style="font-size: 50px;"><strong class="text-center">Contact Us</strong></span>
             </div>
+            <div class="container px-5 py-5 align-items-center">
+                <form method="post" class="form-horizontal" onsubmit="doContact(this); return false;">
+                    <input type="hidden" name="action" value="ajaxhandler">
+                    <input type="hidden" name="xaction" value="contact">
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Name:</label>
+                        <div class="col-sm-9">
+                            <input type="text" name="fullName" class="form-control" placeholder="Your Full Name" required="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Phone Number:</label>
+                        <div class="col-sm-9">
+                            <input type="tel" name="phoneNumber" class="form-control" required="" placeholder="Your Mobile Number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Email Address:</label>
+                        <div class="col-sm-9">
+                            <input type="email" name="emailAddress" class="form-control" placeholder="( Optional )">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3">Your Query:</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" name="query" style="height: 100px;" placeholder="Enter your query / message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-default btn-lg" data-loading-text="<i class='fa fa-cog fa-spin'></i> Please wait...">
+                                <i class="fa fa-check"></i> Submit
+                            </button>
+                            &nbsp;&nbsp;
+                            &nbsp;&nbsp;
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         </div>
     </div>
 </section>
